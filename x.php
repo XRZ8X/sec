@@ -2,7 +2,7 @@
 
 
 function bot($method, $datas = []) {
-$token = "توكنك";
+$token = "5224127818:AAEYE0LQpTNVRmPiu3dqBibUmhFLzFQJd_Q";
 $url = "https://api.telegram.org/bot$token/" . $method;
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
@@ -19,7 +19,7 @@ return end($get['result']);
 }
 
 
-$id = "ايديك";
+$id = "2053539816";
 
 
 while (1) {
@@ -48,7 +48,7 @@ bot('sendMessage',[
 قم بارسل المعلومات بهذا الشكل :
 الاسم:الكود:اليوزر
 مثال :
-ZERO:5428:@EEEDU \n.BY  @VG_99"]);
+ZERO:5428:@XRZ8X \n.BY  @PIII9"]);
          } 
          
          
